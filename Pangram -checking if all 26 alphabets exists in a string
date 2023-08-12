@@ -18,3 +18,17 @@ Example 2:
 
 Input: sentence = "leetcode"
 Output: false
+/**
+ * @param {string} sentence
+ * @return {boolean}
+ */
+var checkIfPangram = function(sentence) {
+    
+    let mySet=new Set(sentence);
+    
+
+    if(mySet.size==26) return true;
+    return false
+    
+
+};
